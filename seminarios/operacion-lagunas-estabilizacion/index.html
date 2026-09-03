@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Propuesta ejecutiva del seminario Operación de Lagunas de Estabilización: diagnóstico, control y resolución de fallas en sistemas municipales.">
+    <title>Propuesta Ejecutiva: Seminario Operación de Lagunas de Estabilización</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="../../js/main.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-water-500 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-800 text-white no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="../../index.html" class="flex items-center space-x-3" aria-label="Volver a la oferta de seminarios">
+                <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-water-600 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-water-500/20">
+                    <i data-lucide="droplets" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-water-400 font-semibold block">Propuesta Ejecutiva</span>
+                    <span class="text-sm font-bold tracking-tight text-slate-200">PTARM - Capacitación Especializada</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-1 text-sm font-medium">
+                <a href="../../index.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    <span>Oferta de Seminarios</span>
+                </a>
+            </nav>
+
+            <div class="flex items-center space-x-3">
+                <button onclick="" class="inline-flex items-center space-x-2 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white px-3.5 py-1.5 rounded-lg text-xs font-medium transition border border-slate-700 shadow-sm">
+                    <i data-lucide="presentation" class="w-4 h-4"></i>
+                    <span class="hidden sm:inline">Ponente:</span>
+                </button>
+                <a href="https://www.ingenierojuancueto.com/" class="inline-flex items-center space-x-2 bg-water-600 hover:bg-water-500 text-white px-4 py-1.5 rounded-lg text-xs font-semibold shadow-md shadow-water-600/30 transition">
+                    <i data-lucide="badge-check" class="w-4 h-4"></i>
+                    <span>Ing. Juan L. Cueto Tilano</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+            <aside class="lg:col-span-3 no-print">
+                <div class="sticky top-24 bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-4">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 px-2">Tabla de Contenidos</h3>
+                    <nav class="space-y-1 text-sm font-medium">
+                        <a href="#titulo" class="flex items-center space-x-3 text-slate-600 hover:text-water-600 hover:bg-water-50/50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-water-600 font-bold">1.</span>
+                            <span class="truncate">Título y Subtítulo</span>
+                        </a>
+                        <a href="#ficha-tecnica" class="flex items-center space-x-3 text-slate-600 hover:text-water-600 hover:bg-water-50/50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-water-600 font-bold">2.</span>
+                            <span class="truncate">Ficha Técnica</span>
+                        </a>
+                        <a href="#descripcion" class="flex items-center space-x-3 text-slate-600 hover:text-water-600 hover:bg-water-50/50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-water-600 font-bold">3.</span>
+                            <span class="truncate">Descripción y Justificación</span>
+                        </a>
+                        <a href="#objetivos" class="flex items-center space-x-3 text-slate-600 hover:text-water-600 hover:bg-water-50/50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-water-600 font-bold">4.</span>
+                            <span class="truncate">Objetivos de Aprendizaje</span>
+                        </a>
+                        <a href="#temario" class="flex items-center space-x-3 text-slate-600 hover:text-water-600 hover:bg-water-50/50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-water-600 font-bold">5.</span>
+                            <span class="truncate">Temario por Tiempos</span>
+                        </a>
+                        <a href="#valor-diferencial" class="flex items-center space-x-3 text-slate-600 hover:text-water-600 hover:bg-water-50/50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-water-600 font-bold">6.</span>
+                            <span class="truncate">Valor Diferencial</span>
+                        </a>
+                    </nav>
+
+                    <div class="pt-4 border-t border-slate-100 space-y-3">
+                        <a href="../../index.html" class="inline-flex items-center space-x-2 text-xs font-semibold text-water-600 hover:text-water-700 transition">
+                            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                            <span>Volver a la oferta de seminarios</span>
+                        </a>
+                        <div class="bg-slate-900 rounded-xl p-4 text-white">
+                            <p class="text-xs text-slate-400 uppercase font-semibold">Emisión Oficial</p>
+                            <p class="text-xs font-medium text-water-300 mt-1">03 de septiembre de 2026</p>
+                            <p class="text-[11px] text-slate-400 mt-2">Documento de Carácter Comercial y Académico</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="lg:col-span-9 space-y-10">
+
+                <section id="titulo" class="bg-gradient-to-br from-slate-900 via-slate-800 to-water-900 rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden print-shadow-none">
+                    <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-water-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                    <div class="absolute right-1/3 top-0 w-48 h-48 bg-teal-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+                    <div class="relative z-10 space-y-6">
+                        <div class="inline-flex items-center space-x-2 bg-water-500/20 border border-water-400/30 backdrop-blur px-3 py-1 rounded-full text-xs font-semibold text-water-300">
+                            <i data-lucide="award" class="w-3.5 h-3.5"></i>
+                            <span>Propuesta Comercial / Académica</span>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white">
+                                Operación de Lagunas de Estabilización
+                            </h1>
+                            <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-3xl">
+                                Diagnóstico, control y resolución de fallas en sistemas municipales
+                            </p>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/60 grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <div>
+                                <span class="text-xs text-slate-400 block">Duración</span>
+                                <span class="text-sm font-bold text-water-300 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="clock" class="w-4 h-4"></i>
+                                    <span>2.5 horas (150 min)</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block">Modalidad</span>
+                                <span class="text-sm font-bold text-slate-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="video" class="w-4 h-4"></i>
+                                    <span>Seminario Virtual</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block">Audiencia</span>
+                                <span class="text-sm font-bold text-slate-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="users" class="w-4 h-4"></i>
+                                    <span>Estudiantes y operadores de PTAR</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block">Fecha de Propuesta</span>
+                                <span class="text-sm font-bold text-slate-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                                    <span>03/09/2026</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="ficha-tecnica" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-water-50 text-water-600 rounded-xl">
+                            <i data-lucide="file-text" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">1. Ficha Técnica</h2>
+                            <p class="text-xs text-slate-500">Parámetros operativos y requerimientos del seminario</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="clock" class="w-4 h-4"></i>
+                                <span>Duración estimada</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">2.5 horas (150 minutos)</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="monitor" class="w-4 h-4"></i>
+                                <span>Modalidad</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Virtual sincrónico (100% en vivo).</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="users" class="w-4 h-4"></i>
+                                <span>Público objetivo</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Estudiantes de programas técnicos laborales en saneamiento ambiental, recursos naturales o áreas afines, así como operadores y auxiliares de campo en sistemas de tratamiento de agua.</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="user-check" class="w-4 h-4"></i>
+                                <span>Cupo recomendado</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">30 a 60 (web).</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="layers" class="w-4 h-4"></i>
+                                <span>Nivel técnico</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Operativo / Formativo</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="folder-check" class="w-4 h-4"></i>
+                                <span>Materiales incluidos</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Se entregará una guía de referencia rápida en PDF con los parámetros críticos de control y la normativa aplicable, un listado de bibliografía técnica y el acceso a las dinámicas interactivas en vivo.</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="languages" class="w-4 h-4"></i>
+                                <span>Idioma</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Español</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-sm">
+                                <i data-lucide="wrench" class="w-4 h-4"></i>
+                                <span>Recursos técnicos</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Transmisión a través de la plataforma institucional de videoconferencias (Zoom, Teams o Meet) y uso de un dispositivo móvil con conexión a internet para las dinámicas interactivas en vivo.</p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="descripcion" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-water-50 text-water-600 rounded-xl">
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">3. Descripción General y Justificación</h2>
+                            <p class="text-xs text-slate-500">Fundamentación técnica e impacto en la operación del sitio</p>
+                        </div>
+                    </div>
+
+                    <div class="prose prose-slate max-w-none text-slate-700 leading-relaxed space-y-4">
+                        <p class="text-justify">
+                            El seminario aborda el control operacional y el mantenimiento de lagunas de estabilización, uno de los sistemas biológicos de tratamiento de aguas residuales municipales más extendidos en la región. El contenido está diseñado para estudiantes y personal de campo en saneamiento, enfocado en el reconocimiento temprano de desviaciones operacionales, la interpretación de variables de proceso y la toma de decisiones correctivas para mantener la eficiencia del sistema. La capacitación abarca el comportamiento de lagunas anaerobias, facultativas y de maduración, el control de parámetros en campo y las rutinas de inspección.
+                        </p>
+
+                        <div class="p-5 bg-gradient-to-r from-water-50 via-slate-50 to-teal-50 border-l-4 border-water-600 rounded-r-xl">
+                            <p class="text-justify font-medium text-slate-800">
+                                El rendimiento deficiente en las lagunas de estabilización se debe principalmente a la falta de criterios técnicos para la detección temprana de fallas en el trabajo diario. Las alteraciones en el proceso biológico se manifiestan primero en indicadores organolépticos (cambios de color, presencia de olores, generación de natas, floración de algas y acumulación de lodos) y en variaciones de parámetros físico-químicos simples (oxígeno disuelto, pH y temperatura).
+                            </p>
+                        </div>
+
+                        <p class="text-justify">
+                            Este seminario aporta las herramientas prácticas para interpretar estos indicadores en campo, aplicar medidas correctivas inmediatas y prevenir emergencias operacionales que comprometan la calidad del efluente. La formación fortalece el perfil laboral del estudiante técnico y eleva la capacidad de respuesta del personal en campo.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="objetivos" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-water-50 text-water-600 rounded-xl">
+                            <i data-lucide="target" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">4. Objetivos de Aprendizaje</h2>
+                            <p class="text-xs text-slate-500">Competencias clave que desarrollará el participante</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 text-white p-6 rounded-2xl space-y-2 shadow-md">
+                        <div class="flex items-center space-x-2 text-water-400 font-bold text-xs uppercase tracking-wider">
+                            <i data-lucide="compass" class="w-4 h-4"></i>
+                            <span>Objetivo General</span>
+                        </div>
+                        <p class="text-slate-200 text-base leading-relaxed font-medium">
+                            Capacitar al técnico laboral en la operación cotidiana de lagunas de estabilización, con dominio de los parámetros de control, los procedimientos de arranque y mantenimiento, y especialmente en la identificación temprana y resolución efectiva de los problemas operacionales que comprometen el cumplimiento de la calidad del efluente.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 pt-2">
+                        <h3 class="text-sm font-bold uppercase tracking-wider text-slate-500">Objetivos Específicos</h3>
+                        <div class="grid grid-cols-1 gap-4">
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-water-600 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    1
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Distinción Operativa de Lagunas y Parámetros</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Distinguir operativamente los cuatro tipos de laguna — anaerobia, facultativa, aerobia y de maduración, entendiendo su función en el sistema y los rangos normales de control: oxígeno disuelto, pH, temperatura, clorofila y profundidad de lodo
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-water-600 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    2
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Monitoreo Diario y Mantenimiento Básico</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Operar las unidades de pretratamiento y ejecutar el monitoreo diario del sistema — limpieza de rejas y desarenadores, aforo del caudal afluente, toma de muestras e inspección visual de campo y medición de parámetros de control.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-water-600 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    3
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Diagnóstico y Resolución según Manual MAPAS</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Diagnosticar y resolver los problemas operacionales más frecuentes — malos olores por sobrecarga o sustancias tóxicas, proliferación de insectos, crecimiento de vegetación, natas, alta concentración de algas, presencia de cianobacterias y cortocircuitos hidráulicos — aplicando las acciones correctivas y preventivas descritas en el manual MAPAS.                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="temario" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center justify-between border-b border-slate-100 pb-4 flex-wrap gap-2">
+                        <div class="flex items-center space-x-3">
+                            <div class="p-2.5 bg-water-50 text-water-600 rounded-xl">
+                                <i data-lucide="calendar-range" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h2 class="text-xl font-bold text-slate-900">5. Temario Resumido por Bloques de Tiempo</h2>
+                                <p class="text-xs text-slate-500">Distribución cronológica total (150 minutos)</p>
+                            </div>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 bg-amber-50 text-amber-700 text-xs font-semibold rounded-full border border-amber-200">
+                            <i data-lucide="zap" class="w-3.5 h-3.5 mr-1"></i> Bloque 4 concentra 1/3 del tiempo
+                        </span>
+                    </div>
+
+                    <p class="text-slate-700 text-sm leading-relaxed">
+                        El seminario se distribuye en seis bloques que totalizan 150 minutos. El bloque de problemas operacionales concentra 50 minutos, equivalentes a un tercio del tiempo total, ya que es allí donde el técnico aporta mayor valor y se reduce el riesgo de fallas reales en la planta.
+                    </p>
+
+                    <div class="space-y-1 pt-2">
+                        <div class="flex text-[11px] font-bold text-slate-500 justify-between px-1">
+                            <span>0 min</span>
+                            <span>15 min</span>
+                            <span>50 min</span>
+                            <span>75 min</span>
+                            <span>125 min</span>
+                            <span>140 min</span>
+                            <span>150 min</span>
+                        </div>
+                        <div class="h-4 w-full bg-slate-100 rounded-full overflow-hidden flex shadow-inner">
+                            <div style="width: 10%" class="bg-slate-400" title="Bloque 1 (15m)"></div>
+                            <div style="width: 23.3%" class="bg-water-500" title="Bloque 2 (35m)"></div>
+                            <div style="width: 16.7%" class="bg-teal-500" title="Bloque 3 (25m)"></div>
+                            <div style="width: 33.3%" class="bg-amber-500 font-bold text-white text-[9px] flex items-center justify-center" title="Bloque 4 (50m) NÚCLEO">CORE 33%</div>
+                            <div style="width: 10%" class="bg-indigo-500" title="Bloque 5 (15m)"></div>
+                            <div style="width: 6.7%" class="bg-slate-700" title="Bloque 6 (10m)"></div>
+                        </div>
+                    </div>
+
+                    <div class="overflow-x-auto border border-slate-200 rounded-xl">
+                        <table class="w-full text-left text-sm">
+                            <thead class="bg-slate-800 text-slate-200 text-xs uppercase tracking-wider">
+                                <tr>
+                                    <th class="py-3 px-4 font-bold">Bloque</th>
+                                    <th class="py-3 px-4 font-bold whitespace-nowrap">Minuto</th>
+                                    <th class="py-3 px-4 font-bold">Contenido</th>
+                                    <th class="py-3 px-4 font-bold">Resultado esperado</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 bg-white">
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-4 px-4 font-bold text-slate-900 whitespace-nowrap">
+                                        1. Apertura y principios de operación
+                                    </td>
+                                    <td class="py-4 px-4 font-semibold text-water-700 whitespace-nowrap">
+                                        0 – 25
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-700">
+                                        Concepto y fundamentos biológicos del tratamiento en lagunas, criterios de funcionamiento, arreglos hidráulicos en serie o en paralelo, y la importancia del rol del operador en la continuidad del proceso.
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-600 bg-slate-50/50 italic">
+                                        Marco común: el técnico entiende la lógica del sistema lagunar en su conjunto.
+                                    </td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-4 px-4 font-bold text-slate-900 whitespace-nowrap">
+                                        2. Parámetros de control y monitoreo
+                                    </td>
+                                    <td class="py-4 px-4 font-semibold text-water-700 whitespace-nowrap">
+                                        25 – 50
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-700">
+                                        Control de variables operativas de campo, factores de influencia en el proceso, inspección visual y rutinas de muestreo.
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-600 bg-slate-50/50 italic">
+                                        El técnico sabe qué medir, cómo, cuándo y qué rango es aceptable para cada parámetro.
+                                    </td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-4 px-4 font-bold text-slate-900 whitespace-nowrap">
+                                        3. Arranque y estabilización del proceso
+                                    </td>
+                                    <td class="py-4 px-4 font-semibold text-water-700 whitespace-nowrap">
+                                        50 – 75
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-700">
+                                        Verificaciones previas en la infraestructura, pautas para el llenado controlado, procedimiento de arranque en lagunas anaerobias, facultativas y aerobias, e indicadores para confirmar la estabilización biológica del proceso.
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-600 bg-slate-50/50 italic">
+                                        Capacidad de ejecutar o apoyar un arranque sin comprometer la biomasa ni la calidad del efluente.
+                                    </td>
+                                </tr>
+
+                                <tr class="bg-amber-50/60 hover:bg-amber-50 transition border-l-4 border-l-amber-500">
+                                    <td class="py-4 px-4 font-bold text-amber-950 whitespace-nowrap">
+                                        <div class="flex items-center space-x-1.5">
+                                            <span>4. Problemas operacionales y acciones correctivas</span>
+                                        </div>
+                                        <span class="inline-block mt-1 px-2 py-0.5 bg-amber-200 text-amber-900 text-[10px] font-extrabold rounded uppercase">
+                                            Núcleo del Seminario
+                                        </span>
+                                    </td>
+                                    <td class="py-4 px-4 font-bold text-amber-800 whitespace-nowrap">
+                                        75 – 125
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-800 font-medium">
+                                        Diagnóstico y solución de las fallas más comunes en planta: generación de malos olores, proliferación de vectores, crecimiento de vegetación, acumulación de natas, floración de algas, cianobacterias y cortocircuitos hidráulicos. Para cada evento se aborda su identificación en campo, causa raíz y las medidas correctivas inmediatas y preventivas.
+                                    </td>
+                                    <td class="py-4 px-4 text-amber-900 bg-amber-100/40 italic font-medium">
+                                        El técnico identifica el problema en campo, propone y  aplica la acción correctiva correcta.
+                                    </td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-4 px-4 font-bold text-slate-900 whitespace-nowrap">
+                                        5. Conservación física e infraestructura
+                                    </td>
+                                    <td class="py-4 px-4 font-semibold text-water-700 whitespace-nowrap">
+                                        125 – 140
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-700">
+                                        riterios de mantenimiento rutinario en el predio de la laguna: conservación de obras civiles, limpieza de canales de paso, cuidado de cerramientos, vías de acceso y control de vegetación perimetral.
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-600 bg-slate-50/50 italic">
+                                        Mantenimiento preventivo planificado y trabajo seguro en el sitio.
+                                    </td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="py-4 px-4 font-bold text-slate-900 whitespace-nowrap">
+                                        6. Cierre, preguntas y entrega de materiales
+                                    </td>
+                                    <td class="py-4 px-4 font-semibold text-water-700 whitespace-nowrap">
+                                        140 – 150
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-700">
+                                        Recapitulación de mensajes clave, atención a dudas operativas finales de los asistentes y cierre de la jornada con el material de apoyo.
+                                    </td>
+                                    <td class="py-4 px-4 text-slate-600 bg-slate-50/50 italic">
+                                        Consolidación del aprendizaje y resolución de dudas concretas del día a día.
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="valor-diferencial" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-water-50 text-water-600 rounded-xl">
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">6. Valor Diferencial</h2>
+                            <p class="text-xs text-slate-500">Cinco pilares de calidad y ventaja competitiva</p>
+                        </div>
+                    </div>
+
+                    <p class="text-slate-700 text-sm">
+                        Esta propuesta se distingue de la capacitación convencional por cinco elementos diferenciales verificables:
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+
+                        <div class="p-5 rounded-2xl border border-slate-100 bg-gradient-to-br from-slate-50 to-water-50/30 space-y-2">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-base">
+                                <i data-lucide="crosshair" class="w-5 h-5 text-water-600"></i>
+                                <h3>Especialización exclusiva en la tecnología</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 leading-relaxed pl-7">
+                                Concentra el 100% de la jornada en la operación real de lagunas de estabilización, omitiendo teoría general sobre otras tecnologías de tratamiento para enfocarse en la realidad del sitio.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-amber-200/60 bg-amber-50/30 space-y-2">
+                            <div class="flex items-center space-x-2 text-amber-900 font-bold text-base">
+                                <i data-lucide="alert-triangle" class="w-5 h-5 text-amber-600"></i>
+                                <h3>Enfoque práctico y lenguaje operativo</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 leading-relaxed pl-7">
+                                Contenido adaptado al nivel y contexto del personal de campo y estudiantes técnicos, priorizando la lectura de indicadores visuales y los criterios de decisión rápida en planta.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-slate-100 bg-gradient-to-br from-slate-50 to-water-50/30 space-y-2">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-base">
+                                <i data-lucide="message-square-code" class="w-5 h-5 text-water-600"></i>
+                                <h3>Concentración en resolución de contingencias</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 leading-relaxed pl-7">
+                                Dedica un bloque central de la charla al diagnóstico de causa raíz y a las acciones correctivas inmediatas frente a las fallas más comunes del proceso.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-slate-100 bg-gradient-to-br from-slate-50 to-water-50/30 space-y-2">
+                            <div class="flex items-center space-x-2 text-water-700 font-bold text-base">
+                                <i data-lucide="file-check" class="w-5 h-5 text-water-600"></i>
+                                <h3>Metodología activa y material de soporte</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 leading-relaxed pl-7">
+                                Incorpora dinámicas interactivas en tiempo real desde dispositivos móviles y entrega una guía de referencia rápida en PDF con los parámetros críticos para consulta posterior.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-teal-200/60 bg-teal-50/30 md:col-span-2 space-y-2">
+                            <div class="flex items-center space-x-2 text-teal-900 font-bold text-base">
+                                <i data-lucide="book-marked" class="w-5 h-5 text-teal-700"></i>
+                                <h3>Fundamentación técnica y normativa</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 leading-relaxed pl-7">
+                                Formación fundamentada en la normativa ambiental aplicable y en criterios técnicos probados para la operación eficiente de sistemas biológicos de tratamiento.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="p-6 bg-slate-900 text-slate-100 rounded-2xl border border-slate-800 text-center space-y-2 mt-6">
+                        <p class="text-sm sm:text-base font-medium leading-relaxed max-w-3xl mx-auto">
+                            "La propuesta está calibrada para entregarse íntegramente en 150 minutos sin comprometer el rigor operativo ni la aplicabilidad práctica que justifica la realización del seminario con personal técnico laboral."
+                        </p>
+                    </div>
+                </section>
+
+                <footer class="text-center text-xs text-slate-400 py-4 no-print">
+                    <p>Propuesta Ejecutiva de Seminario PTARM • Operación de Lagunas de Estabilización • Fecha de la propuesta: 03 de septiembre de 2026</p>
+                </footer>
+
+            </main>
+        </div>
+    </div>
+</body>
+</html>
