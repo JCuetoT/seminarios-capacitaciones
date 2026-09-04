@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Propuesta ejecutiva del seminario De la Indiferencia a la Acción: herramientas para comprender y favorecer el cambio de comportamiento ambiental.">
+    <title>Propuesta Ejecutiva: De la Indiferencia a la Acción - Conductas Proambientales</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-emerald-600 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-800 text-white no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="../index.html" class="flex items-center space-x-3" aria-label="Volver a la oferta de seminarios">
+                <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-emerald-700 to-emerald-500 flex items-center justify-center text-white shadow-lg shadow-emerald-600/30">
+                    <i data-lucide="brain-circuit" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-emerald-400 font-semibold block">Propuesta Ejecutiva</span>
+                    <span class="text-sm font-bold tracking-tight text-slate-200">Psicología Moral &amp; Conducta Proambiental</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-1 text-sm font-medium">
+                <a href="../index.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    <span>Oferta de Seminarios</span>
+                </a>
+            </nav>
+
+            <div class="flex items-center space-x-3">
+                <button onclick="window.print()" class="inline-flex items-center space-x-2 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white px-3.5 py-1.5 rounded-lg text-xs font-medium transition border border-slate-700 shadow-sm">
+                    <i data-lucide="printer" class="w-4 h-4"></i>
+                    <span class="hidden sm:inline">Imprimir / PDF</span>
+                </button>
+                <a href="https://www.ingenierojuancueto.com/" class="inline-flex items-center space-x-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-1.5 rounded-lg text-xs font-semibold shadow-md shadow-emerald-600/30 transition">
+                    <i data-lucide="badge-check" class="w-4 h-4"></i>
+                    <span>Ing. Juan L. Cueto Tilano</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+            <aside class="lg:col-span-3 no-print">
+                <div class="sticky top-24 bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-4">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 px-2 flex items-center space-x-1.5">
+                        <i data-lucide="list" class="w-3.5 h-3.5 text-emerald-600"></i>
+                        <span>Tabla de Contenidos</span>
+                    </h3>
+                    <nav class="space-y-1 text-sm font-medium">
+                        <a href="#titulo" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">1.</span>
+                            <span class="truncate">Ficha Técnica</span>
+                        </a>
+                        <a href="#descripcion" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">2.</span>
+                            <span class="truncate">Descripción y Justificación</span>
+                        </a>
+                        <a href="#problema-promesas" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">3.</span>
+                            <span class="truncate">Problema y Promesas</span>
+                        </a>
+                        <a href="#objetivos" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">4.</span>
+                            <span class="truncate">Objetivos de Aprendizaje</span>
+                        </a>
+                        <a href="#temario" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">5.</span>
+                            <span class="truncate">Temario por Tiempos (150m)</span>
+                        </a>
+                        <a href="#valor-diferencial" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">6.</span>
+                            <span class="truncate">Valor Diferencial</span>
+                        </a>
+                        <a href="#fuentes" class="flex items-center space-x-3 text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60 px-3 py-2 rounded-xl transition">
+                            <span class="w-5 text-xs text-emerald-700 font-bold">7.</span>
+                            <span class="truncate">Fuentes Bibliográficas</span>
+                        </a>
+                    </nav>
+
+                    <div class="pt-4 border-t border-slate-100 space-y-3">
+                        <a href="../index.html" class="inline-flex items-center space-x-2 text-xs font-semibold text-emerald-700 hover:text-emerald-800 transition">
+                            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                            <span>Volver a la oferta de seminarios</span>
+                        </a>
+                        <div class="bg-slate-900 rounded-xl p-4 text-white space-y-1">
+                            <p class="text-[10px] text-slate-400 uppercase tracking-wider font-bold">Emisión Oficial</p>
+                            <p class="text-xs font-bold text-emerald-400">03 de septiembre de 2026</p>
+                            <p class="text-[11px] text-slate-400 pt-1">Código: SEM-AMB-2026-09</p>
+                            <p class="text-[10px] text-slate-400 italic">© Juan L. Cueto Tilano</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="lg:col-span-9 space-y-10">
+
+                <section id="titulo" class="bg-gradient-to-br from-slate-900 via-emerald-950 to-slate-900 rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden print-shadow-none">
+                    <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+                    <div class="relative z-10 space-y-6">
+                        <div class="inline-flex items-center space-x-2 bg-emerald-500/20 border border-emerald-400/30 backdrop-blur px-3 py-1 rounded-full text-xs font-semibold text-emerald-300">
+                            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-emerald-400"></i>
+                            <span>Propuesta Comercial / Académica de Seminario</span>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white">
+                                De la Indiferencia a la Acción
+                            </h1>
+                            <p class="text-base sm:text-lg text-emerald-300 font-semibold leading-relaxed max-w-3xl">
+                                Herramientas para comprender y favorecer el cambio de comportamiento ambiental
+                            </p>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-800 grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <div>
+                                <span class="text-xs text-slate-400 block uppercase tracking-wider font-bold text-[10px]">Duración</span>
+                                <span class="text-sm font-bold text-emerald-400 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="clock" class="w-4 h-4"></i>
+                                    <span>2.5 horas (150 min)</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block uppercase tracking-wider font-bold text-[10px]">Modalidad</span>
+                                <span class="text-sm font-bold text-slate-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="video" class="w-4 h-4"></i>
+                                    <span>Webinar / Presencial</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block uppercase tracking-wider font-bold text-[10px]">Nivel</span>
+                                <span class="text-sm font-bold text-slate-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="layers" class="w-4 h-4"></i>
+                                    <span>Intermedio-Aplicado</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block uppercase tracking-wider font-bold text-[10px]">Elaboración</span>
+                                <span class="text-sm font-bold text-slate-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                                    <span>03/09/2026</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="descripcion" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-emerald-50 text-emerald-700 rounded-xl">
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">2. Descripción General y Justificación</h2>
+                            <p class="text-xs text-slate-500">Fundamentación teórica y necesidad sectorial de cambio conductual</p>
+                        </div>
+                    </div>
+
+                    <div class="prose prose-slate max-w-none text-slate-700 leading-relaxed space-y-4">
+                        <p class="text-justify">
+                            Las estrategias de educación y comunicación ambiental suelen centrarse en transmitir información y fortalecer la conciencia sobre los problemas ambientales; sin embargo, conocer una conducta adecuada no garantiza que esta sea adoptada. La brecha entre conocimiento, intención y acción puede estar influida por mecanismos de exclusión moral que permiten justificar la inacción, desplazar responsabilidades o minimizar las consecuencias de determinadas prácticas ambientales. Este seminario aborda esta brecha desde tres enfoques complementarios: la teoría de la exclusión moral, el modelo de determinantes del comportamiento proambiental y el marketing social comunitario (CBSM), integrándolos en un proceso aplicado de diagnóstico, formulación y evaluación de estrategias orientadas a favorecer cambios de comportamiento ambiental.
+                        </p>
+
+                        <div class="p-5 bg-gradient-to-r from-emerald-50 via-slate-50 to-emerald-50/40 border-l-4 border-emerald-600 rounded-r-xl space-y-2">
+                            <p class="text-xs text-emerald-900 font-bold uppercase tracking-wider flex items-center space-x-1.5">
+                                <i data-lucide="lightbulb" class="w-4 h-4 text-emerald-600"></i>
+                                <span>Relevancia Crítica para Técnicos en Saneamiento y Ambientales:</span>
+                            </p>
+                            <p class="text-justify font-medium text-slate-800 text-sm sm:text-base">
+                                Comprender por qué los usuarios no adoptan prácticas de separación de residuos, no se conectan al alcantarillado, no tratan el agua o mantienen conductas de contaminación persistente resulta tan crítico como comprender los aspectos técnicos de la infraestructura y los sistemas de saneamiento.
+                            </p>
+                        </div>
+
+                        <p class="text-justify">
+                            El seminario proporciona herramientas para analizar los factores que intervienen en estas decisiones y pasar de estrategias centradas exclusivamente en informar a intervenciones basadas en evidencia sobre comportamiento. Con una duración de 2,5 horas (150 minutos), se desarrollarán ejercicios de aplicación que relacionan los mecanismos de exclusión moral con herramientas del marketing social comunitario (CBSM), permitiendo formular estrategias adaptadas al contexto, con criterios para su seguimiento y evaluación.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="problema-promesas" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-emerald-50 text-emerald-700 rounded-xl">
+                            <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">3. Promesas de Valor</h2>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3 pt-2">
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400">Tres Promesas de Valor Clave</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                            <div class="p-5 rounded-xl border border-emerald-100 bg-emerald-50/40 space-y-2">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-700 text-white font-bold flex items-center justify-center text-xs">
+                                    P1
+                                </div>
+                                <h4 class="font-bold text-emerald-950 text-sm">Comprensión del Comportamiento</h4>
+                                <p class="text-xs text-slate-600 leading-relaxed">
+                                    Identificar los factores psicológicos, sociales y contextuales que influyen en la adopción o rechazo de conductas ambientales.
+                                </p>
+                            </div>
+
+                            <div class="p-5 rounded-xl border border-emerald-100 bg-emerald-50/40 space-y-2">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-800 text-white font-bold flex items-center justify-center text-xs">
+                                    P2
+                                </div>
+                                <h4 class="font-bold text-emerald-950 text-sm">Formulación de Estrategias</h4>
+                                <p class="text-xs text-slate-600 leading-relaxed">
+                                    Aplicar herramientas de psicología moral y marketing social comunitario para plantear estrategias orientadas a favorecer cambios de comportamiento ambiental.
+                                </p>
+                            </div>
+
+                            <div class="p-5 rounded-xl border border-emerald-100 bg-emerald-50/40 space-y-2">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-700 text-white font-bold flex items-center justify-center text-xs">
+                                    P3
+                                </div>
+                                <h4 class="font-bold text-emerald-950 text-sm">Evaluación de Cambios</h4>
+                                <p class="text-xs text-slate-600 leading-relaxed">
+                                    Establecer criterios e indicadores que permitan realizar seguimiento y valorar los resultados de las estrategias implementadas.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="objetivos" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-emerald-50 text-emerald-700 rounded-xl">
+                            <i data-lucide="target" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">4. Objetivos de Aprendizaje</h2>
+                            <p class="text-xs text-slate-500">Competencias prácticas y metodológicas a desarrollar</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-slate-900 via-emerald-950 to-slate-900 text-white p-6 rounded-xl space-y-2 shadow-md border border-slate-800">
+                        <div class="flex items-center space-x-2 text-emerald-400 font-bold text-xs uppercase tracking-wider">
+                            <i data-lucide="compass" class="w-4 h-4"></i>
+                            <span>Objetivo General</span>
+                        </div>
+                        <p class="text-slate-200 text-base leading-relaxed font-medium">
+                            Fortalecer las capacidades de los participantes para analizar los factores psicológicos, sociales y contextuales que influyen en las conductas ambientales, y formular estrategias basadas en evidencia para favorecer su adopción en contextos de saneamiento y gestión ambiental.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3 pt-2">
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500">Objetivos Específicos</h3>
+                        <div class="grid grid-cols-1 gap-4">
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-700 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    OE1
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Comprensión del comportamiento ambiental</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Identificar mecanismos de exclusión moral y otros factores que pueden influir en la adopción, justificación o rechazo de conductas ambientales en contextos de saneamiento y gestión ambiental.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-800 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    OE2
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Aplicación del Modelo CBSM</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Aplicar principios del marketing social comunitario (CBSM) para analizar barreras y formular estrategias orientadas a favorecer la adopción de conductas ambientales según las características del contexto y la población objetivo.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-700 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    OE3
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Seguimiento y evaluación</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Establecer criterios e indicadores que permitan realizar seguimiento a las estrategias implementadas y valorar cambios asociados a las conductas ambientales objetivo.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="temario" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center justify-between border-b border-slate-100 pb-4 flex-wrap gap-2">
+                        <div class="flex items-center space-x-3">
+                            <div class="p-2.5 bg-emerald-50 text-emerald-700 rounded-xl">
+                                <i data-lucide="clock-4" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h2 class="text-xl font-bold text-slate-900">5. Temario Resumido por Bloques de Tiempo</h2>
+                                <p class="text-xs text-slate-500">Distribución cronológica total (2.5 horas / 150 minutos exactos)</p>
+                            </div>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 bg-amber-50 text-amber-800 text-xs font-semibold rounded-full border border-amber-200">
+                            <i data-lucide="zap" class="w-3.5 h-3.5 mr-1 text-amber-600"></i> Bloque 4 (Taller CBSM) concentra 50 min
+                        </span>
+                    </div>
+
+                    <p class="text-sm text-slate-700 leading-relaxed">
+                        El temario se estructura en seis bloques calibrados para un total de 150 minutos (2,5 horas). Cada bloque combina exposición conceptual con ejercitación práctica sobre problemas de saneamiento y gestión ambiental.
+                    </p>
+
+                    <div class="space-y-1.5 pt-2">
+                        <div class="flex text-[11px] font-bold text-slate-500 justify-between px-1">
+                            <span>0 min</span>
+                            <span>15 min</span>
+                            <span>45 min</span>
+                            <span>75 min</span>
+                            <span>125 min</span>
+                            <span>145 min</span>
+                            <span>150 min</span>
+                        </div>
+                        <div class="h-4 w-full bg-slate-100 rounded-full overflow-hidden flex shadow-inner border border-slate-200">
+                            <div style="width: 10%" class="bg-slate-400" title="B1: Apertura (15m)"></div>
+                            <div style="width: 20%" class="bg-emerald-700" title="B2: Bandura (30m)"></div>
+                            <div style="width: 20%" class="bg-emerald-600" title="B3: Steg & Vlek (30m)"></div>
+                            <div style="width: 33.3%" class="bg-amber-500 font-bold text-white text-[9px] flex items-center justify-center tracking-wider" title="B4: Taller CBSM (50m)">TALLER CBSM 33%</div>
+                            <div style="width: 13.3%" class="bg-slate-800" title="B5: Métricas (20m)"></div>
+                            <div style="width: 3.4%" class="bg-emerald-500" title="B6: Cierre (5m)"></div>
+                        </div>
+                    </div>
+
+                    <div class="overflow-x-auto border border-slate-200/80 rounded-xl mt-4">
+                        <table class="w-full text-left text-sm border-collapse">
+                            <thead>
+                                <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+                                    <th class="p-3.5 font-bold border-b border-slate-800 whitespace-nowrap">Bloque</th>
+                                    <th class="p-3.5 font-bold border-b border-slate-800 whitespace-nowrap">Minuto</th>
+                                    <th class="p-3.5 font-bold border-b border-slate-800 whitespace-nowrap">Duración</th>
+                                    <th class="p-3.5 font-bold border-b border-slate-800">Contenido</th>
+                                    <th class="p-3.5 font-bold border-b border-slate-800 whitespace-nowrap">Modalidad</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 bg-white text-slate-700">
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-bold text-slate-900">1. Apertura y diagnóstico del problema</td>
+                                    <td class="p-3.5 font-semibold text-emerald-700 whitespace-nowrap">0 – 15 min</td>
+                                    <td class="p-3.5 font-medium whitespace-nowrap">15 min</td>
+                                    <td class="p-3.5">La brecha entre conocimiento, intención y acción. ¿Por qué informar no siempre se traduce en cambios de comportamiento? Identificación de situaciones ambientales frecuentes en contextos locales.</td>
+                                    <td class="p-3.5 text-xs font-semibold text-slate-600 bg-slate-50">Exposición interactiva</td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-bold text-slate-900">2. Marco teórico I</td>
+                                    <td class="p-3.5 font-semibold text-emerald-700 whitespace-nowrap">15 – 45 min</td>
+                                    <td class="p-3.5 font-medium whitespace-nowrap">30 min</td>
+                                    <td class="p-3.5">Principales mecanismos de exclusión moral y su relación con la justificación, normalización o desplazamiento de responsabilidad frente a problemas ambientales. Aplicación a situaciones de residuos, vertimientos y saneamiento.</td>
+                                    <td class="p-3.5 text-xs font-semibold text-slate-600 bg-slate-50">Exposición + ejemplos de campo</td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-bold text-slate-900">3. Marco teórico II</td>
+                                    <td class="p-3.5 font-semibold text-emerald-700 whitespace-nowrap">45 – 75 min</td>
+                                    <td class="p-3.5 font-medium whitespace-nowrap">30 min</td>
+                                    <td class="p-3.5">Factores que influyen en el comportamiento proambiental: aspectos individuales, sociales y contextuales. Identificación de barreras que pueden dificultar la adopción de determinadas prácticas.</td>
+                                    <td class="p-3.5 text-xs font-semibold text-slate-600 bg-slate-50">Exposición + microcaso</td>
+                                </tr>
+
+                                <tr class="bg-amber-50/70 font-medium">
+                                    <td class="p-3.5 font-bold text-amber-950">
+                                        4. Taller aplicado — Diseño con CBSM
+                                        <span class="block text-[10px] text-amber-800 font-extrabold uppercase tracking-wider mt-0.5">Núcleo Práctico (50 min)</span>
+                                    </td>
+                                    <td class="p-3.5 font-bold text-amber-800 whitespace-nowrap">75 – 125 min</td>
+                                    <td class="p-3.5 font-bold text-amber-900 whitespace-nowrap">50 min</td>
+                                    <td class="p-3.5 text-slate-800">
+                                        Análisis de una conducta ambiental, identificación de barreras y selección de estrategias para favorecer su adopción, considerando las características del contexto y de la población objetivo.
+                                    </td>
+                                    <td class="p-3.5 text-xs font-bold text-amber-900 bg-amber-100/60 uppercase tracking-wider">Taller práctico</td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-bold text-slate-900">5. Seguimiento y evaluación</td>
+                                    <td class="p-3.5 font-semibold text-emerald-700 whitespace-nowrap">125 – 145 min</td>
+                                    <td class="p-3.5 font-medium whitespace-nowrap">20 min</td>
+                                    <td class="p-3.5">Definición de indicadores para realizar seguimiento a las estrategias y valorar cambios en conocimientos, condiciones, participación o comportamiento, según el caso.</td>
+                                    <td class="p-3.5 text-xs font-semibold text-slate-600 bg-slate-50">Exposición + plantilla</td>
+                                </tr>
+
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-bold text-slate-900">6. Síntesis y aplicación</td>
+                                    <td class="p-3.5 font-semibold text-emerald-700 whitespace-nowrap">145 – 150 min</td>
+                                    <td class="p-3.5 font-medium whitespace-nowrap">5 min</td>
+                                    <td class="p-3.5">Integración de los conceptos y formulación de una acción de aplicación en el contexto laboral o comunitario del participante.</td>
+                                    <td class="p-3.5 text-xs font-semibold text-slate-600 bg-slate-50">Cierre</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="valor-diferencial" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-emerald-50 text-emerald-700 rounded-xl">
+                            <i data-lucide="award" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">6. Valor Diferencial: Por qué elegir esta propuesta</h2>
+                            <p class="text-xs text-slate-500">Ventajas estratégicas frente a la capacitación convencional</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
+
+                        <div class="p-5 bg-slate-50 rounded-2xl border border-slate-200/80 space-y-2 hover:bg-emerald-50/30 transition">
+                            <div class="flex items-center space-x-2 text-emerald-900 font-bold text-base">
+                                <i data-lucide="layers" class="w-5 h-5 text-emerald-700"></i>
+                                <h3>Integración de enfoques</h3>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed pl-7">
+                                Articula tres marcos complementarios —psicología moral, comportamiento proambiental y marketing social comunitario para abordar la brecha entre conocimiento y acción ambiental desde una perspectiva conductual.
+                            </p>
+                        </div>
+                        <div class="p-5 bg-slate-50 rounded-2xl border border-slate-200/80 space-y-2 hover:bg-emerald-50/30 transition">
+                            <div class="flex items-center space-x-2 text-emerald-900 font-bold text-base">
+                                <i data-lucide="droplets" class="w-5 h-5 text-emerald-700"></i>
+                                <h3>Aplicación al contexto real</h3>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed pl-7">
+                                En lugar de limitarse a la exposición conceptual, el seminario utiliza casos del sector ambiental y un ejercicio aplicado en el que los participantes analizan situaciones concretas de su contexto y exploran cómo los factores psicológicos, sociales y contextuales pueden influir en la adopción de conductas ambientales.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-6 bg-slate-900 text-slate-100 rounded-2xl border border-slate-800 text-center space-y-2 mt-6">
+                        <p class="text-sm sm:text-base font-medium leading-relaxed max-w-3xl mx-auto">
+                            "Una propuesta novedosa que integra psicología moral y ciencias del comportamiento al campo del saneamiento y la gestión ambiental."
+                        </p>
+                    </div>
+                </section>
+
+                <footer class="bg-white rounded-2xl border border-slate-200/80 p-6 text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4 no-print">
+                    <div class="space-y-0.5 text-center sm:text-left">
+                        <p class="font-bold text-slate-800 text-sm">Propuesta de Capacitación Especializada</p>
+                        <p class="text-slate-500">De la Indiferencia a la Acción • Código: SEM-AMB-2026-09</p>
+                    </div>
+                    <div class="text-center sm:text-right space-y-0.5">
+                        <p class="text-slate-700">Fecha de emisión: <strong>03 de septiembre de 2026</strong></p>
+                        <p class="text-slate-500">© Juan L. Cueto Tilano</p>
+                    </div>
+                </footer>
+
+            </main>
+        </div>
+    </div>
+</body>
+</html>

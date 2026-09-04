@@ -1,8 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 @media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    @page {
+        size: letter portrait;
+        margin: 12mm 10mm;
+    }
+
     .no-print { display: none !important; }
     body { background: white !important; color: black !important; font-size: 12pt; }
     .print-shadow-none { box-shadow: none !important; border: 1px solid #e2e8f0 !important; }
     .page-break { page-break-before: always; }
+
+    main { grid-column: span 12 / span 12 !important; width: 100% !important; }
+    section, tr, .rounded-2xl, .rounded-3xl {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
 }

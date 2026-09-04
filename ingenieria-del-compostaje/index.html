@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Propuesta ejecutiva del seminario Ingeniería del Compostaje y NTC 5167: valorización de residuos orgánicos, operación técnica y control de calidad.">
+    <title>Propuesta Ejecutiva: Ingeniería del Compostaje y NTC 5167</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-leaf-600 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-stone-900/95 backdrop-blur border-b border-stone-800 text-white no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="../index.html" class="flex items-center space-x-3" aria-label="Volver a la oferta de seminarios">
+                <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-leaf-700 to-earth-500 flex items-center justify-center text-white shadow-lg shadow-leaf-900/30">
+                    <i data-lucide="sprout" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-leaf-400 font-semibold block">Propuesta Ejecutiva</span>
+                    <span class="text-sm font-bold tracking-tight text-stone-200">Ingeniería del Compostaje & NTC 5167</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-1 text-sm font-medium">
+                <a href="../index.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    <span>Oferta de Seminarios</span>
+                </a>
+            </nav>
+
+            <div class="flex items-center space-x-3">
+                <button onclick="" class="inline-flex items-center space-x-2 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white px-3.5 py-1.5 rounded-lg text-xs font-medium transition border border-slate-700 shadow-sm">
+                    <i data-lucide="presentation" class="w-4 h-4"></i>
+                    <span class="hidden sm:inline">Ponente:</span>
+                </button>
+                <a href="https://www.ingenierojuancueto.com/" class="inline-flex items-center space-x-2 bg-leaf-600 hover:bg-leaf-500 text-white px-4 py-1.5 rounded-lg text-xs font-semibold shadow-md shadow-leaf-600/30 transition">
+                    <i data-lucide="badge-check" class="w-4 h-4"></i>
+                    <span>Ing. Juan L. Cueto Tilano</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+            <aside class="lg:col-span-3 no-print">
+                <div class="sticky top-24 bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-4">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 px-2 flex items-center space-x-1.5">
+                        <i data-lucide="list" class="w-3.5 h-3.5 text-leaf-700"></i>
+                        <span>Tabla de Contenidos</span>
+                    </h3>
+                    <nav class="space-y-1 text-sm font-medium">
+                        <a href="#sec-1" class="flex items-center space-x-3 text-slate-600 hover:text-leaf-700 hover:bg-leaf-50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-leaf-700 font-bold">1.</span>
+                            <span class="truncate">Título y Subtítulo</span>
+                        </a>
+                        <a href="#sec-2" class="flex items-center space-x-3 text-slate-600 hover:text-leaf-700 hover:bg-leaf-50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-leaf-700 font-bold">2.</span>
+                            <span class="truncate">Ficha Técnica</span>
+                        </a>
+                        <a href="#sec-3" class="flex items-center space-x-3 text-slate-600 hover:text-leaf-700 hover:bg-leaf-50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-leaf-700 font-bold">3.</span>
+                            <span class="truncate">Descripción y Justificación</span>
+                        </a>
+                        <a href="#sec-4" class="flex items-center space-x-3 text-slate-600 hover:text-leaf-700 hover:bg-leaf-50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-leaf-700 font-bold">4.</span>
+                            <span class="truncate">Objetivos de Aprendizaje</span>
+                        </a>
+                        <a href="#sec-5" class="flex items-center space-x-3 text-slate-600 hover:text-leaf-700 hover:bg-leaf-50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-leaf-700 font-bold">5.</span>
+                            <span class="truncate">Temario por Bloques (150m)</span>
+                        </a>
+                        <a href="#sec-6" class="flex items-center space-x-3 text-slate-600 hover:text-leaf-700 hover:bg-leaf-50 px-3 py-2 rounded-xl transition">
+                            <span class="w-6 text-xs text-leaf-700 font-bold">6.</span>
+                            <span class="truncate">Valor Diferencial</span>
+                        </a>
+                    </nav>
+
+                    <div class="pt-4 border-t border-slate-100 space-y-3">
+                        <a href="../index.html" class="inline-flex items-center space-x-2 text-xs font-semibold text-leaf-700 hover:text-leaf-800 transition">
+                            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                            <span>Volver a la oferta de seminarios</span>
+                        </a>
+                        <div class="bg-stone-900 rounded-xl p-4 text-white">
+                            <p class="text-xs text-stone-400 uppercase font-semibold">Emisión Oficial</p>
+                            <p class="text-xs font-medium text-leaf-400 mt-1">03 de septiembre de 2026</p>
+                            <p class="text-[11px] text-stone-400 mt-2">Versión 2.0 — Ajustada a 2.5 h y normativa colombiana</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="lg:col-span-9 space-y-10">
+
+                <section id="sec-1-hero" class="bg-gradient-to-br from-stone-900 via-stone-850 to-earth-950 rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden print-shadow-none">
+                    <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-leaf-600/10 rounded-full blur-3xl pointer-events-none"></div>
+                    <div class="absolute right-1/3 top-0 w-48 h-48 bg-earth-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+                    <div class="relative z-10 space-y-6">
+                        <div class="inline-flex items-center space-x-2 bg-leaf-500/20 border border-leaf-400/30 backdrop-blur px-3 py-1 rounded-full text-xs font-semibold text-leaf-300">
+                            <i data-lucide="award" class="w-3.5 h-3.5"></i>
+                            <span>PROPUESTA DE SEMINARIO ESPECIALIZADO</span>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white">
+                                Valorización de Residuos Orgánicos:
+                            </h1>
+                            <p class="text-base sm:text-lg text-stone-300 font-normal leading-relaxed max-w-3xl">
+                                Operación técnica, control de calidad y conformidad con la NTC 5167 y normas colombianas conexas (Decreto 1077/2015, Decreto 670/2025, Resolución ICA 68370/2020), a escala municipal y comunitaria, con casos latinoamericanos.
+                            </p>
+                        </div>
+
+                        <div class="pt-4 border-t border-stone-700/60 grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <div>
+                                <span class="text-xs text-stone-400 block">Duración</span>
+                                <span class="text-sm font-bold text-leaf-400 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="clock" class="w-4 h-4"></i>
+                                    <span>2.5 horas (150 min)</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-stone-400 block">Modalidad</span>
+                                <span class="text-sm font-bold text-stone-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="video" class="w-4 h-4"></i>
+                                    <span>Web</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-stone-400 block">Audiencia</span>
+                                <span class="text-sm font-bold text-stone-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="users" class="w-4 h-4"></i>
+                                    <span>Técnicos & Gestores RSU</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-stone-400 block">Fecha Elaboración</span>
+                                <span class="text-sm font-bold text-stone-200 flex items-center space-x-1 mt-0.5">
+                                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                                    <span>04/09/2026</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="sec-2" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-leaf-50 text-leaf-700 rounded-xl">
+                            <i data-lucide="file-text" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">2. Ficha Técnica</h2>
+                            <p class="text-xs text-slate-500">Parámetros operativos, normativos y metodológicos</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="clock" class="w-4 h-4"></i>
+                                <span>Duración estimada</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">150 minutos (2.5 horas)</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="monitor" class="w-4 h-4"></i>
+                                <span>Modalidad sugerida</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Web (videoconferencia sincrónica)</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1 md:col-span-2">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="users" class="w-4 h-4"></i>
+                                <span>Público objetivo</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Técnicos en saneamiento, ambientales, agrícolas y afines</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="user-check" class="w-4 h-4"></i>
+                                <span>Tamaño de grupo ideal</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">15 a 30 participantes.</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="wrench" class="w-4 h-4"></i>
+                                <span>Recursos técnicos</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Transmisión a través de la plataforma institucional de videoconferencias (Zoom, Teams o Meet) y uso de un dispositivo móvil con conexión a internet para las dinámicas interactivas en vivo.</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1 md:col-span-2">
+                            <div class="flex items-center space-x-2 text-earth-800 font-bold text-sm">
+                                <i data-lucide="scale" class="w-4 h-4"></i>
+                                <span>Marco normativo de referencia</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">NTC 5167 (productos orgánicos usados como abonos), Decreto 1077/2015 (sector vivienda-aseo), Decreto 670/2025 (manejo de residuos orgánicos biodegradables), Resolución ICA 68370/2020 (bioinsumos), Ley 99/1993.</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="folder-check" class="w-4 h-4"></i>
+                                <span>Materiales incluidos</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Se entregará una guía de referencia rápida en PDF con los parámetros críticos de control y la normativa aplicable, un listado de bibliografía técnica y el acceso a las dinámicas interactivas en vivo.</p>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-100 bg-slate-50/50 space-y-1">
+                            <div class="flex items-center space-x-2 text-leaf-800 font-bold text-sm">
+                                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                                <span>Requisitos previos</span>
+                            </div>
+                            <p class="text-sm text-slate-700 pl-6">Nociones básicas de microbiología y manejo de RSU.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="sec-3" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-earth-50 text-earth-700 rounded-xl">
+                            <i data-lucide="book-open" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">3. Descripción General y Justificación</h2>
+                            <p class="text-xs text-slate-500">Fundamentación técnica, brecha de mercado y evidencia regional</p>
+                        </div>
+                    </div>
+
+                    <div class="prose prose-slate max-w-none text-slate-700 leading-relaxed space-y-4 text-justify">
+                        <p>
+                            La valorización de residuos orgánicos representa una oportunidad para pasar de un modelo basado en la disposición de residuos a uno orientado al aprovechamiento de recursos. A través de alternativas como el compostaje, es posible transformar residuos en productos útiles para los sistemas agrícolas, recuperar materia orgánica y nutrientes, reducir impactos ambientales y disminuir la cantidad de materiales enviados a disposición final. Este enfoque se relaciona directamente con los principios de la economía circular y la sostenibilidad ambiental.
+                        </p>
+                        <p>
+                            El seminario abordará los criterios técnicos necesarios para el aprovechamiento de residuos orgánicos, desde su caracterización y selección hasta el control de variables que determinan la eficiencia y calidad del proceso de transformación. Además, se analizará cómo el aprovechamiento de estos residuos puede generar valor económico mediante la obtención de productos con potencial de uso y comercialización, integrando tres aspectos fundamentales: aprovechamiento de recursos, desempeño ambiental y generación de valor.
+                        </p>
+                        <div class="p-5 bg-stone-900 text-stone-200 rounded-xl border border-stone-800 my-4 shadow-sm space-y-2">
+                            <p class="text-xs text-leaf-400 font-bold uppercase tracking-wider flex items-center space-x-1.5">
+                                <i data-lucide="layers" class="w-4 h-4"></i>
+                                <span>Fundamentación técnica y normativa:</span>
+                            </p>
+                            <p class="text-xs sm:text-sm text-stone-300 leading-relaxed font-light">
+                                La propuesta aborda los fundamentos microbiológicos y termodinámicos que explican la transformación de la materia orgánica durante el compostaje, relacionándolos con el control de variables críticas como temperatura, humedad, aireación y relación C. Estos fundamentos se articulan con la NTC 5167 y la normativa ambiental y sanitaria aplicable, para comprender cómo las condiciones del proceso determinan la estabilización, calidad y aprovechamiento del producto, dentro de un enfoque de valorización y economía circular.
+                            </p>
+                        </div>
+
+                        <p>
+                            La integración de fuentes técnicas y normativas permitirá contrastar rangos operativos del proceso, relación C, temperatura, humedad, oxígeno y pH, con los parámetros de calidad establecidos para el producto, incorporando criterios de composición, estabilidad, inocuidad y presencia de contaminantes. El seminario, con una duración de 150 minutos, presentará esta información mediante datos cuantitativos, criterios de verificación y referencias normativas, orientados a la evaluación técnica de alternativas de valorización en plantas, sistemas productivos, consultorías y programas de gestión de residuos orgánicos.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="sec-4" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-leaf-50 text-leaf-700 rounded-xl">
+                            <i data-lucide="target" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">4. Objetivos de Aprendizaje</h2>
+                            <p class="text-xs text-slate-500">Competencias técnico-operativas a desarrollar</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-stone-900 to-earth-950 text-white p-6 rounded-2xl space-y-2 shadow-md">
+                        <div class="flex items-center space-x-2 text-leaf-400 font-bold text-xs uppercase tracking-wider">
+                            <i data-lucide="compass" class="w-4 h-4"></i>
+                            <span>Objetivo General</span>
+                        </div>
+                        <p class="text-stone-200 text-sm sm:text-base leading-relaxed font-medium">
+                           Al finalizar la capacitación, el participante estará en capacidad de monitorear los parámetros críticos del compostaje (humedad, temperatura y aireación), interpretar las lecturas en campo y aplicar los ajustes operativos necesarios para asegurar la calidad e inocuidad del producto final según la NTC 5167.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 pt-2">
+                        <h3 class="text-sm font-bold uppercase tracking-wider text-slate-500">Objetivos Específicos</h3>
+                        <div class="grid grid-cols-1 gap-4">
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-leaf-700 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    1
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Ajuste de mezcla y balance de sustratos</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Determinar el balance de la mezcla y el nivel de humedad requerido a partir de las materias primas disponibles, aplicando criterios prácticos para lograr una descomposición eficiente.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-leaf-700 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    2
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Protocolo térmico de higienización</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Monitorear y registrar la fase térmica del proceso para favorecer la higienización del material, estableciendo frecuencias de medición de temperatura y criterios técnicos para determinar los momentos de volteo y manejo de la pila.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-4 p-4 rounded-xl border border-slate-100 bg-slate-50/80 hover:bg-slate-50 transition">
+                                <div class="w-8 h-8 rounded-lg bg-leaf-700 text-white font-bold flex items-center justify-center shrink-0 text-sm">
+                                    3
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="font-bold text-slate-800 text-sm">Verificación de Calidad y Control del Producto Final</h4>
+                                    <p class="text-slate-600 text-sm leading-relaxed">
+                                        Verificar la madurez, estabilidad e inocuidad del compost mediante criterios técnicos de campo y parámetros de calidad establecidos en la NTC 5167, determinando su aptitud para el uso agrícola o su comercialización.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="sec-5" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center justify-between border-b border-slate-100 pb-4 flex-wrap gap-2">
+                        <div class="flex items-center space-x-3">
+                            <div class="p-2.5 bg-earth-50 text-earth-700 rounded-xl">
+                                <i data-lucide="calendar-range" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h2 class="text-xl font-bold text-slate-900">5. Temario Resumido por Bloques de Tiempo</h2>
+                                <p class="text-xs text-slate-500">Distribución cronológica detallada (Total: 150 minutos exactos / 2.5 h)</p>
+                            </div>
+                        </div>
+                        <span class="inline-flex items-center px-3 py-1 bg-leaf-50 text-leaf-800 text-xs font-semibold rounded-full border border-leaf-200">
+                            <i data-lucide="check-circle" class="w-3.5 h-3.5 mr-1 text-leaf-600"></i> Sumatoria exacta: 150 min
+                        </span>
+                    </div>
+
+                    <div class="space-y-1.5 pt-2">
+                        <div class="flex text-[10px] sm:text-[11px] font-bold text-slate-500 justify-between px-1">
+                            <span>0 min</span>
+                            <span>15m</span>
+                            <span>35m</span>
+                            <span>65m</span>
+                            <span>80m</span>
+                            <span>100m</span>
+                            <span>125m</span>
+                            <span>145m</span>
+                            <span>150m</span>
+                        </div>
+                        <div class="h-4 w-full bg-slate-100 rounded-full overflow-hidden flex shadow-inner border border-slate-200">
+                            <div style="width: 10%" class="bg-slate-400" title="B1 (15m)"></div>
+                            <div style="width: 13.3%" class="bg-leaf-600" title="B2 (20m)"></div>
+                            <div style="width: 20%" class="bg-earth-600 font-bold text-white text-[8px] flex items-center justify-center" title="B3 (30m)">CÁLCULO 30m</div>
+                            <div style="width: 10%" class="bg-amber-600" title="B4 (15m)"></div>
+                            <div style="width: 13.3%" class="bg-leaf-800 font-bold text-white text-[8px] flex items-center justify-center" title="B5 (20m)">NTC 5167</div>
+                            <div style="width: 16.7%" class="bg-teal-700" title="B6 (25m)"></div>
+                            <div style="width: 13.3%" class="bg-stone-800" title="B7 (20m)"></div>
+                            <div style="width: 3.4%" class="bg-leaf-500" title="B8 (5m)"></div>
+                        </div>
+                    </div>
+
+                    <div class="overflow-x-auto border border-slate-200 rounded-xl mt-4">
+                        <table class="w-full text-left text-sm border-collapse">
+                            <thead>
+                                <tr class="bg-stone-900 text-stone-200 text-xs uppercase tracking-wider">
+                                    <th class="p-3.5 font-bold border-b border-stone-800 whitespace-nowrap">Minuto</th>
+                                    <th class="p-3.5 font-bold border-b border-stone-800 whitespace-nowrap">Duración</th>
+                                    <th class="p-3.5 font-bold border-b border-stone-800">Bloque</th>
+                                    <th class="p-3.5 font-bold border-b border-stone-800">Contenidos clave y recurso didáctico</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 bg-white text-slate-700">
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-semibold text-leaf-800 whitespace-nowrap">0–15 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900 whitespace-nowrap">15 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900">1. Apertura, contextualización y marco normativo colombiano</td>
+                                    <td class="p-3.5 text-xs leading-relaxed">
+                                        Marco del seminario, problema central con sus tres manifestaciones (pilas que no termofilan, compost inmaduro, patógenos remanentes), y bloque normativo: NTC 5167, Decreto 1077/2015 (aprovechamiento del aseo), Decreto 670/2025 (plantas ≥ 20 000 t/año), Resolución ICA 68370/2020, Ley 99/1993, PGIRS. Agenda y objetivos.<br>
+                                        <span class="text-leaf-700 font-semibold mt-1 inline-block">» Recurso:</span> Mapa normativo de una página.
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-semibold text-leaf-800 whitespace-nowrap">15–35 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900 whitespace-nowrap">20 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900">2. Biología y fases del proceso</td>
+                                    <td class="p-3.5 text-xs leading-relaxed">
+                                        Cuatro fases sucesionales: mesófila, termófila, enfriamiento y maduración. Comunidades microbianas dominantes, dinámica de pH y gases.<br>
+                                        <span class="text-leaf-700 font-semibold mt-1 inline-block">» Recurso:</span> Diagrama de fases con rangos térmicos.
+                                    </td>
+                                </tr>
+                                <tr class="bg-earth-50/60 hover:bg-earth-50 transition border-l-4 border-l-earth-600">
+                                    <td class="p-3.5 font-semibold text-earth-800 whitespace-nowrap">35–65 min</td>
+                                    <td class="p-3.5 font-bold text-earth-900 whitespace-nowrap">30 min</td>
+                                    <td class="p-3.5 font-bold text-earth-900">
+                                        3. Parámetros de control operativos y cálculo de mezclas
+                                        <span class="block text-[10px] uppercase font-black text-earth-700 mt-0.5">Taller Práctico</span>
+                                    </td>
+                                    <td class="p-3.5 text-xs leading-relaxed text-slate-800 font-medium">
+                                        C:N 25–35:1, humedad, O₂, pH, tamaño de partícula, dimensionamiento de pila. Ejercicio guiado de cálculo de mezcla con tabla C:N y fórmula de Cornell. Test del puño para humedad.<br>
+                                        <span class="text-earth-800 font-bold mt-1 inline-block">» Recurso:</span> Tabla C:N por material + ejercicio de cálculo.
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-semibold text-leaf-800 whitespace-nowrap">65–80 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900 whitespace-nowrap">15 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900">4. Higienización e inocuidad microbiológica</td>
+                                    <td class="p-3.5 text-xs leading-relaxed">
+                                        Tiempos letales por patógeno, prevención de re-contaminación, límites microbiológicos NTC 5167.<br>
+                                        <span class="text-leaf-700 font-semibold mt-1 inline-block">» Recurso:</span> Tabla tiempo/temperatura por patógeno.
+                                    </td>
+                                </tr>
+                                <tr class="bg-leaf-50/70 hover:bg-leaf-50 transition border-l-4 border-l-leaf-600">
+                                    <td class="p-3.5 font-semibold text-leaf-900 whitespace-nowrap">80–100 min</td>
+                                    <td class="p-3.5 font-bold text-leaf-950 whitespace-nowrap">20 min</td>
+                                    <td class="p-3.5 font-bold text-leaf-950">
+                                        5. Calidad del producto: NTC 5167 y normas conexas
+                                        <span class="block text-[10px] uppercase font-black text-leaf-700 mt-0.5">Módulo Normativo</span>
+                                    </td>
+                                    <td class="p-3.5 text-xs leading-relaxed text-slate-800 font-medium">
+                                        Categorías NTC 5167 (fertilizantes orgánicos, orgánico-minerales, enmiendas húmicas y no húmicas). Parámetros físico-químicos, metales pesados y Grados de madurez Dewar<br>
+                                        <span class="text-leaf-800 font-bold mt-1 inline-block">» Recurso:</span> Matriz de verificación NTC 5167.
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-semibold text-leaf-800 whitespace-nowrap">100–125 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900 whitespace-nowrap">25 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900">6. Sistemas y casos reales latinoamericanos</td>
+                                    <td class="p-3.5 text-xs leading-relaxed">
+                                        Tipologías y Casos<br>
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-semibold text-leaf-800 whitespace-nowrap">125–145 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900 whitespace-nowrap">20 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900">7. Lecciones aprendidas y factores de éxito/fracaso</td>
+                                    <td class="p-3.5 text-xs leading-relaxed">
+                                        Análisis de 61 plantas mexicanas: factores políticos, económicos, técnicos, sociales y de planeación. Construcción colaborativa de checklist operativa. Identificación de puntos críticos de control accionables en planta.<br>
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50 transition">
+                                    <td class="p-3.5 font-semibold text-leaf-800 whitespace-nowrap">145–150 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900 whitespace-nowrap">5 min</td>
+                                    <td class="p-3.5 font-bold text-slate-900">8. Cierre y Q&A</td>
+                                    <td class="p-3.5 text-xs leading-relaxed">
+                                        Síntesis de las tres promesas de valor, preguntas de los participantes, referencias bibliográficas y normativa citada.<br>
+                                        <span class="text-leaf-700 font-semibold mt-1 inline-block">» Recurso:</span> Pizarra de preguntas.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="sec-6" class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+                    <div class="flex items-center space-x-3 border-b border-slate-100 pb-4">
+                        <div class="p-2.5 bg-leaf-50 text-leaf-700 rounded-xl">
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-slate-900">6. Valor Diferencial: Por qué elegir esta propuesta</h2>
+                            <p class="text-xs text-slate-500">Cuatro pilares estratégicos que garantizan la aplicabilidad técnica</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200/80 space-y-1 hover:bg-leaf-50/40 transition">
+                            <h3 class="font-bold text-slate-900 text-xs sm:text-sm flex items-center space-x-2">
+                                <i data-lucide="scale" class="w-4 h-4 text-leaf-700"></i>
+                                <span>1. Marco técnico y normativo integrado</span>
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed pl-6">
+                                La propuesta articula los fundamentos del proceso con el marco colombiano aplicable al aprovechamiento y uso de productos orgánicos, integrando referentes como la NTC 5167 y la normativa ambiental, sanitaria y agropecuaria relacionada. El participante podrá relacionar las condiciones de operación con los criterios de calidad y las exigencias aplicables al producto final.
+                            </p>
+                        </div>
+
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200/80 space-y-1 hover:bg-leaf-50/40 transition">
+                            <h3 class="font-bold text-slate-900 text-xs sm:text-sm flex items-center space-x-2">
+                                <i data-lucide="book-marked" class="w-4 h-4 text-leaf-700"></i>
+                                <span>2. Evidencia técnica y contexto regional</span>
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed pl-6">
+                                El seminario integra información de manuales técnicos, literatura especializada y experiencias documentadas de México, Ecuador, Colombia y Paraguay. Esta revisión permite contrastar prácticas y condiciones de operación con experiencias latinoamericanas de valorización de residuos orgánicos, evitando trasladar de forma directa parámetros desarrollados para contextos productivos diferentes.
+                            </p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200/80 space-y-1 hover:bg-leaf-50/40 transition">
+                            <h3 class="font-bold text-slate-900 text-xs sm:text-sm flex items-center space-x-2">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-leaf-700"></i>
+                                <span>3. Datos y criterios técnicos verificables</span>
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed pl-6">
+                                Los contenidos incorporan rangos de operación, relaciones C/N, temperaturas por fase, criterios de madurez y parámetros de calidad, acompañados de definiciones y unidades consistentes. El enfoque busca reemplazar recomendaciones generales o reglas empíricas por criterios que puedan ser medidos, registrados y utilizados para la toma de decisiones técnicas.
+                            </p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200/80 space-y-1 hover:bg-leaf-50/40 transition">
+                            <h3 class="font-bold text-slate-900 text-xs sm:text-sm flex items-center space-x-2">
+                                <i data-lucide="ruler" class="w-4 h-4 text-leaf-700"></i>
+                                <span>4. Herramientas para la aplicación</span>
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed pl-6">
+                                El seminario entrega instrumentos de uso inmediato, entre ellos tablas de relación C/N, protocolo de seguimiento térmico, ficha comparativa de casos y matriz de verificación de parámetros de calidad. Estos recursos permiten trasladar los contenidos de la sesión a actividades de operación, seguimiento y evaluación de procesos de valorización
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-stone-900 text-stone-200 p-5 rounded-2xl text-center text-xs sm:text-sm font-medium mt-6 shadow-inner border border-stone-800">
+                        "La propuesta está calibrada para entregarse en 150 minutos entregando una metodología rigurosa, cuantitativa y alineada con la normatividad ambiental y técnica colombiana."
+                    </div>
+                </section>
+
+                <footer class="bg-white rounded-2xl border border-slate-200/80 p-6 text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4 no-print">
+                    <div class="space-y-0.5 text-center sm:text-left">
+                        <p class="font-bold text-slate-800 text-sm">Propuesta de Seminario Especializado</p>
+                        <p class="text-slate-500">Documento confidencial para uso académico y comercial.</p>
+                    </div>
+                    <div class="text-center sm:text-right space-y-0.5">
+                        <p class="text-slate-700">Fecha de elaboración: <strong>03 de septiembre de 2026</strong></p>
+                        <p class="text-slate-500">Versión 2.0 • Colombia</p>
+                    </div>
+                </footer>
+
+            </main>
+        </div>
+    </div>
+</body>
+</html>

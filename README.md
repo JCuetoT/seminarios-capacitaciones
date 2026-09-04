@@ -7,13 +7,13 @@ Oferta de seminarios y capacitaciones especializadas en saneamiento y tratamient
 ```
 /
 ├── index.html                          # Portada: oferta de seminarios (cards data-driven)
-├── operacion-lagunas-estabilizacion/
-│   ├── index.html                      # Propuesta ejecutiva del seminario
-│   └── materiales/                     # Material académico del seminario (PDF, guías)
+├── operacion-lagunas-estabilizacion/   # Propuesta: Operación de Lagunas de Estabilización
+├── conductas-proambientales/           # Propuesta: De la Indiferencia a la Acción
+├── ingenieria-del-compostaje/          # Propuesta: Ingeniería del Compostaje y NTC 5167
 ├── css/
 │   └── main.css                        # Estilos compartidos (fonts, print)
 ├── js/
-│   ├── main.js                         # Config de Tailwind + init de Lucide (compartido)
+│   ├── main.js                         # Config de Tailwind (paletas) + init de Lucide (compartido)
 │   └── seminarios.js                   # Catálogo de seminarios + render de tarjetas
 └── assets/                             # Imágenes y recursos estáticos
 ```
